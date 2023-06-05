@@ -1,0 +1,23 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/onboarding-fe/node_modules
+/onboarding-fe/.pnp
+/onboarding-fe.pnp.js
+
+# testing
+/onboarding-fe/coverage
+
+# production
+/onboarding-fe/build
+
+# misc
+/onboarding-fe/.DS_Store
+/onboarding-fe/.env.local
+/onboarding-fe/.env.development.local
+/onboarding-fe/.env.test.local
+/onboarding-fe/.env.production.local
+
+/onboarding-fe/npm-debug.log*
+/onboarding-fe/yarn-debug.log*
+/onboarding-fe/yarn-error.log*
