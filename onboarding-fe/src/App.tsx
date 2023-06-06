@@ -1,9 +1,9 @@
 import React, { lazy, Suspense } from "react";
 import { BrowserRouter, Redirect, Route, Switch } from "react-router-dom";
 import { loadTheme } from "@fluentui/react";
-import { ErrorLayout } from "./components/layouts/system/error";
+import { ErrorLayout } from "./components/layouts/system/Error";
 
-import "./App.css";
+import "./assets/css/App.css";
 
 loadTheme({
   defaultFontStyle: { fontFamily: "\"Nunito\", \"Noto Sans KR\", sans-serif", fontWeight: "400" },
@@ -26,7 +26,7 @@ loadTheme({
   },
 });
 
-const HomeLayout = lazy(() => import("./components/layouts/home/index"));
+const HomeLayout = lazy(() => import("./pages/Home"));
 
 export default function App() {
   return (

@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import "./index.css";
+import "./assets/css/index.css";
+import "./assets/css/styles.css";
 import { initializeIcons } from "@fluentui/react";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
@@ -9,8 +10,9 @@ initializeIcons();
 
 ReactDOM.render(
   <React.StrictMode>
-      <App />
-  </React.StrictMode>, document.getElementById("root")
+    <App />
+  </React.StrictMode>,
+  document.getElementById("root"),
 );
 
 // If you want to start measuring performance in your app, pass a function
